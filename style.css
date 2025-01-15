@@ -59,7 +59,7 @@ article p {
     margin-top: 0;
     border-bottom-style: solid;
     border-bottom-width: 1px;
-    border-bottom-color: #394a4a;
+    border-bottom-color: rgb(240, 213, 218);
 }
 
 ol,
@@ -175,11 +175,13 @@ img {
         max-width: 100%;
     }
 
-    section, iframe {
+    section,
+    iframe {
         max-width: fit-content;
     }
 
-    .e, .z {
+    .e,
+    .z {
         max-width: 100%;
     }
 
